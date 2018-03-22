@@ -1,9 +1,158 @@
+/* Universal Styles */
+
+body {
+  font-size: 22px;
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+
+
+
+/* Header */
+
 header {
   width: 100%;
   height: 69px;
-  display: fixed;
-  border-bottom: solid;
-  border-width: 1px
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
   background-color: black;
+  color: seashell;
+  text-decoration: underline;
+  justify-content: space-between;
+  align-items: center;
 
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+nav {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  flex-direction: row-reverse;
+  padding: 20px 10px;
+  margin-left: 20px;
+}
+
+
+/* Mission */
+
+.title {
+  background-color: black;
+  height: 150px;
+  width: 1200px;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto 78px auto;
+  padding-top: 69px;
+}
+
+.our-mission {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+  align-content: center;
+  background-image: url(/Users/digitalkoma/Documents/Projects/TeaCozy/resources/images/img-mission-background.jpg);
+}
+
+/* Tea of the Month */
+
+.featured-tea {
+  width: 1000px;
+  padding-top: 69px;
+  display: flex;
+  flex-flow: column;
+}
+
+.tea-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.tea-containter {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.tea-images {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.tea-images span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Locations */
+
+.location {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 70px;
+  height: 500px;
+  width: 1200px;
+  background-image: url(/Users/digitalkoma/Documents/Projects/TeaCozy/resources/images/img-locations-background.jpg);
+}
+
+.location-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.location-item {
+  width: 300px;
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+  margin: 5px;
+}
+
+.location-text {
+  margin: 15px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-flow: column;
+}
+
+#cr {
+  align-self: flex-start;
 }
