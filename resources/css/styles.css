@@ -18,13 +18,15 @@ header {
   height: 69px;
   display: flex;
   position: fixed;
+  justify-content: space-between;
+  align-items: center;
+
   border-bottom: 1px solid seashell;
   background-color: black;
   color: seashell;
   text-decoration: underline;
-  justify-content: space-between;
-  align-items: center;
 
+  margin-top: -10px;
 }
 
 .logo {
@@ -78,16 +80,18 @@ nav span {
   height: 700px;
   justify-content: center;
   align-content: center;
-  background-image: url(/Users/digitalkoma/Documents/Projects/TeaCozy/resources/images/img-mission-background.jpg);
+  background-image: url("../../resources/images/img-mission-background.jpg");
 }
 
 /* Tea of the Month */
 
 .featured-tea {
-  width: 1000px;
+  width: 100%;
   padding-top: 69px;
   display: flex;
   flex-flow: column;
+  align-items: center;
+
 }
 
 .tea-gallery {
